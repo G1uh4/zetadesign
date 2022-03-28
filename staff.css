@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tracking-in-expand-fwd{
+    text-align: center;
+    font-size: 5em;
+    -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            color: black;
+}
+
+.displayStaffCards{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 900px){
+    .displayStaffCards{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     gap: 2em;
+     justify-content: center;
+    }
+}
+
+.staffCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+
+}
+
+@media only screen and (min-width: 1100px){
+    .staffCard{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1em;
+    }
+}
+
+
+.cardBackground{
+    background-color: black;
+    color:  white;
+    border-radius: 80px 0 80px 0;
+    box-shadow: -6px 11px 18px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 11px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 11px 18px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (min-width: 1100px) {
+    .cardBackground{
+        display: flex;
+        flex-direction: row;
+        border-radius: 50px 0 50px 0;
+        width: 50em;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 2em;
+    }
+    }
+
+.cardText{
+    padding: 2em;
+    width: 20em;
+}
+
+@media only screen and (min-width: 1100px) {
+    .cardText{
+        width: 30em;
+        padding: 3em;
+        margin-top: 2em;
+    }
+    }
+
+.avatarPicture{
+    border-radius: 50%;
+    width: 100;
+    width: 14em;
+    margin-top: 2em;
+}
+
+@media only screen and (min-width: 1100px){
+    .avatarPicture{
+        margin-left: 6em;
+    }
+}
+
+.displayEmail{
+    font-size: 1em;
+    text-shadow: 3px 4px 10px;
+}
+
+@media only screen and (min-width: 1100px){
+    .displayEmail{
+        display: none;
+    }
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    width: 13em;
+    border-radius: 0 0 80px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+
+
+
+.displayRow{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and(min-width: 1100px){
+    .displayRow{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.extraBox{
+    display: none;
+}
+
+@media only screen and (min-width: 1100px){
+    .extraBox{
+        background-color: black;
+        color: white;
+        font-size: 1.4em;
+        display: flex;
+        align-items: center;
+        gap: 1.4em;
+        border-radius: 50px 0 50px 0;
+        height: 10em;
+        margin-top: 1em;
+        margin-left: 2em;
+        padding: 2em;
+    }
+}
+
+
+
+
+
+
